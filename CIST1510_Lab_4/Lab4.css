@@ -24,6 +24,7 @@
 
   #wrapper{
       width: 80%;
+      
       margin-left: auto;
       margin-right:auto;
       background-color: #EAEAEA;
@@ -44,14 +45,16 @@
   
 
   main{
+      
       margin-left:100px;
       padding: 10px;
-      background-color: #FFFFFF;
+      background-color: #c2cad1;
+      
   }
 
   body{
       background-color: #000066;
-      margin: 0;
+      
   }  
 
   footer{
@@ -60,10 +63,11 @@
       font-style: italic;
       background-color: #CCCCFF;
       clear:both;
+      
   }
   
   a{
-    color:blue;
+    color:#000066;
     text-decoration: none;
   }
 
@@ -71,4 +75,28 @@
       margin:0;
       padding:10px;
       font-family: Lobster;
+      color: #000066;
+  }
+
+
+@media(max-width:800px){
+    body{
+        background-color:#54BAB9 ;
+    }
+    h1,h2,h3{
+        margin:0;
+        padding:10px;
+        font-family: Lobster;
+        color: #54BAB9;
+    }
+    a{
+        color:#54BAB9;
+        text-decoration: none;
+    }
+}
+
+
+  .responsive{
+    max-width: 100%;
+    height: auto;
   }
