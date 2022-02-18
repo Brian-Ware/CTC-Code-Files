@@ -30,3 +30,8 @@ h1, h2, h3{
   font-family: "Lobster";
 }
 
+/*Making images responsive*/
+.responsive{
+  max-width: 100%;
+  height: auto;
+}
