@@ -1,64 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Casita.org</title>
-        <link rel="stylesheet" href="Lab4.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    </head>
-    
-    <body>
-        <div id="wrapper">
-            <header>
-                <h1> Casita Fundrasing</h1>
-            </header>
-            <nav id="navbar">
-                <ul><b>
-                        <li><a href="./Home.html">Home &nbsp;</a></li>
-                        <li><a href="./Events.html">Events &nbsp;</a></li>
-    
-                        <li> <a href="./Contacts.html">Contacts</a></li>
-                        <li><a href="./Donors.html">Be a Donor</a></li>
-                    </b>
-                </ul>
-    
-    
-    
-    
-    
-                
-            </nav>
-            <main>
-                <div>
-                    <table>
-                        <caption>Tier List</caption>
-                        <tr>
-                            <th>Tier</th>
-                            <th>Price</th>
-                        </tr>
-                        <tr class="red">
-                            <td>Tier 1</td>
-                            <td>$1,000</td>
-                        </tr>
-                        <tr class="yellow">
-                            <td>Tier 2</td>
-                            <td>$5,000</td>
-                        </tr>
-                        <tr class="green">
-                            <td>Tier 3</td>
-                            <td>$10,000</td>
-                        </tr>
-                    </table>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casita.org</title>
+    <link rel="stylesheet" href="Lab4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1> Casita Fundrasing</h1>
+        </header>
+        <nav id="navbar">
+            <ul><b>
+                    <li><a href="./Home.html">Home &nbsp;</a></li>
+                    <li><a href="./Events.html">Events &nbsp;</a></li>
+
+                    <li> <a href="./Contacts.html">Contacts</a></li>
+                    <li><a href="./Donors.html">Be a Donor</a></li>
+                </b>
+            </ul>
+
+
+
+
+
+
+        </nav>
+        <main>
+            <div>
+                <table>
+                    <caption>Donor Tier List</caption>
+                    <tr>
+                        <th>Tier</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr class="red">
+                        <td>Tier 1</td>
+                        <td>$1,000</td>
+                    </tr>
+                    <tr class="yellow">
+                        <td>Tier 2</td>
+                        <td>$5,000</td>
+                    </tr>
+                    <tr class="green">
+                        <td>Tier 3</td>
+                        <td>$10,000</td>
+                    </tr>
+                </table>
+
+
+
+
+            </div>
+            <form action="">
+                <fieldset>
                     
-                </div>
-            </main>
-            <footer><i>Copyright &copy; 2022 Casita</i></footer>
-    
-        </div>
-    </body>
-    
+                    <label for="tier">Choose Your Tier</label>
+                    <select size="1" name="tier" id="tier">
+                        
+                        <option value="Tier 1" >Tier 1 </option>
+                        <option value="Tier 2" >Tier 2</option>
+                        <option value="Tier 3" >Tier 3</option>
+                    </select>
+                  <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+
+        </main>
+        <footer><i>Copyright &copy; 2022 Casita</i></footer>
+
+    </div>
+</body>
+
 </html>
