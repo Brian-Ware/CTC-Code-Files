@@ -74,7 +74,27 @@
   h1, h2, h3{
       margin:0;
       padding:10px;
-      font-family: Lobster;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: #000066;
+  }
+
+  table{
+      margin: auto;
+      border: 5px solid #000066;
+      border-spacing: 0;
+      width: 600px;
+  }
+
+  td,th{
+      border: 1px solid #000066;
+      padding: 0.5em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  caption{
+      font-size: xx-large;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: italic;
       color: #000066;
   }
 
@@ -86,7 +106,7 @@
     h1,h2,h3{
         margin:0;
         padding:10px;
-        font-family: Lobster;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         color: #54BAB9;
     }
     a{
@@ -99,4 +119,16 @@
   .responsive{
     max-width: 100%;
     height: auto;
+  }
+
+  .green{
+      background-color: green;
+  }
+
+  .yellow{
+      background-color: yellow;
+  }
+
+  .red{
+      background-color:red;
   }
