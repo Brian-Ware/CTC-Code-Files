@@ -22,14 +22,11 @@
     color: black;
   }
 
-  #wrapper{
-      width: 80%;
-      
-      margin-left: auto;
-      margin-right:auto;
-      background-color: #EAEAEA;
-  }
-  
+ #wrapper { margin: 0 auto;
+	width: 80%;
+	min-width: 960px; max-width: 1200px;
+	background-color: #B3C7E6;
+	color: #000066; }
   header{
       background-color: #CCCCFF;
   }
