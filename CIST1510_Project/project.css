@@ -30,7 +30,7 @@ nav {
     height: 40px;
 }
 h2, h3 { color: #869dc7; 
-   font-family: arial, sans-serif;
+   font-family: "Lobster";
 }
 
 #floatright { margin: 10px;
@@ -59,4 +59,5 @@ nav a  { text-decoration: none;
 }
 .nav{
     color: #00005D;
+    font-family: "Lobster";
 }
