@@ -61,3 +61,30 @@ nav a  { text-decoration: none;
     color: #00005D;
     font-family: "Lobster";
 }
+
+table{
+    margin: auto;
+    border: 5px solid #000066;
+    border-spacing: 0;
+    width: 600px;
+}
+
+th{
+    border: 1px solid #000066;
+    padding: 1em;
+    font-family: "Lobster";
+    font-size: large;
+}
+
+td{
+    border: 1px solid #000066;
+    padding: 1em;
+    font-family:Verdana, Arial, sans-serif;
+}
+
+caption{
+    font-size: xxx-large;
+    font-family: "Lobster";
+    font-style: italic;
+    color: #000066;
+}
