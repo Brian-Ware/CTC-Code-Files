@@ -10,7 +10,7 @@ body {font-family:Verdana, Arial, sans-serif;
 } 
 
 
-main { display: block; /* for Internet Explorer version 10 and below */
+main { display: block; 
      padding: 3em;
      background-color: #ffffff;
      color: #000000;
