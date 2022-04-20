@@ -48,6 +48,10 @@ nav ul { list-style-type: none;}
 nav li {  display: inline; }
 nav a  { text-decoration: none; 
        padding-right: 10px; }
+ nav a:hover{
+           color: #EAEAEA;
+       }
+
 .social{
     color:#00005D;
 }
@@ -87,4 +91,15 @@ caption{
     font-family: "Lobster";
     font-style: italic;
     color: #000066;
+}
+
+form{
+    background-color: #EAEAEA;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    width: 650px;
+    
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
 }

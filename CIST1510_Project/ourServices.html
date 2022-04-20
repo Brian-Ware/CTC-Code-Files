@@ -2,84 +2,94 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Infinity Consulting</title>
-    <link rel="stylesheet" href="project.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infinity Consulting</title>
+  <link rel="stylesheet" href="project.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div id="wrapper">
-      <header>
-        <h1>Infinity Consulting</h1>
-      </header>
-      <nav>
-        <ul>
-          <li><a href="home.html" class="nav">Home</a></li>
-          <li><a href="ourServices.html" class="nav"> Services</a></li>
-          <li><a href="locations.html" class="nav">Locations</a></li>
-          <li><a href="contact.html" class="nav"> Contacts</a></li>
-        </ul>
-      </nav>
-      <main> 
-        <img src="/photos/Infinity.PNG" width="200" height="150" id="floatright" alt="Infinity Symbol">
+  <div id="wrapper">
+    <header>
+      <h1>Infinity Consulting</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="home.html" class="nav">Home</a></li>
+        <li><a href="ourServices.html" class="nav"> Services</a></li>
+        <li><a href="locations.html" class="nav">Locations</a></li>
+        <li><a href="contact.html" class="nav"> Contacts</a></li>
+      </ul>
+    </nav>
+    <main>
+      <img src="/photos/Infinity.PNG" width="200" height="150" id="floatright" alt="Infinity Symbol">
 
-        <table>
-          <caption>Our Services</caption>
-          <tr>
-            <th>Service</th>
-            <th>Description</th>
-            <th>Price</th>
-          </tr>
-          <tr>
-            <td><h2>Labor Issues</h2></td>
-            <td>Whether you got unions to bust or
-              useless CEO's to promote, our Labor division has you covered.</td>
-              <td>$25,000/hr</td>
-          </tr>
-          <tr>
-            <td> <h2>Marketing</h2> </td>
-            <td>With our patent protected social media algorithims, 
-              we can pretty much sell water to a fish at this point.  
-         </td>
-         <td>$50,000/hr</td>
-          </tr>
-          <tr>
-            <td><h2>Privacy Concerns </h2></td>
-            <td>No tech company is safe from cyber attacks these days. Luckily for you, we have 
-              a team of elite hackers and cyber security experts that we would totally never turn
+      <table>
+        <caption>Our Services</caption>
+        <tr>
+          <th>Service</th>
+          <th>Description</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>
+            <h2>Labor Issues</h2>
+          </td>
+          <td>Whether you got unions to bust or
+            useless CEO's to promote, our Labor division has you covered.</td>
+          <td>$25,000/hr</td>
+        </tr>
+        <tr>
+          <td>
+            <h2>Marketing</h2>
+          </td>
+          <td>With our patent protected social media algorithims,
+            we can pretty much sell water to a fish at this point.
+          </td>
+          <td>$50,000/hr</td>
+        </tr>
+        <tr>
+          <td>
+            <h2>Privacy Concerns </h2>
+          </td>
+          <td>No tech company is safe from cyber attacks these days. Luckily for you, we have
+            a team of elite hackers and cyber security experts that we would totally never turn
             against you if you void our contract.</td>
-            <td>$75,000/hr</td>
-          </tr>
-          <tr>
-            <td><h2>Crisis Managment</h2></td>
-            <td>You either die a hero or live long enough to see yourself become a villian. We'll be there to clean it up either way. <br>
-              </td>
-              <td>$100,000/hr</td>
-          </tr>
-        </table>
-        <h2>Labor Issues</h2>
-        <p> </p>
-        <h2>Marketing</h2>
-        <p>With our patent protected social media algorithims and near brainwashing style commercials, <br>
-           we can pretty much sell water to a fish at this point.  
-      </p>
-          <h2>Privacy Concerns </h2>
-        <p>No tech company is safe from cyber attacks in this day and age. Luckily for you, we have <br>
-        a team of elite hackers and cyber security experts that we would totally never apply <br>
-      against you if you end our contract. </p>
-        <h2>Crisis Managment</h2>
-        <p>You either die a hero or live long enough to see yourself become a villian. Either way <br>
-        we'll be there to clean it all up.</p>
-       
-    
-        </main>
-        <footer>Copyright &copy; 2020
-        </footer>
-    </div>
-    </body>
+          <td>$75,000/hr</td>
+        </tr>
+        <tr>
+          <td>
+            <h2>Crisis Managment</h2>
+          </td>
+          <td>You either die a hero or live long enough to see yourself become a villian. We'll be there to clean it up
+            either way. <br>
+          </td>
+          <td>$100,000/hr</td>
+        </tr>
+      </table>
+      <form action="" method="post">
+        <fieldset>
+
+          <label for="service">Choose Your Service</label>
+          <select size="1" name="service" id="service">
+
+            <option value="Labor">Labor</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Privacy">Privacy</option>
+            <option value="Crisis">Crisis</option>
+          </select>
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+      
+
+    </main>
+    <footer>Copyright &copy; 2020
+    </footer>
+  </div>
+</body>
 
 </html>
